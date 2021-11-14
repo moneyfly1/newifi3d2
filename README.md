@@ -1,7 +1,7 @@
 # Auto build OpenWrt firmware for Newifi D2
 固件采用GitHub Actions不定时自动云编译。  
 Auto build OpenWrt firmware for Newifi D2 via GitHub Actions
-
+路由器地址： 192.168.5.1 密码password
 # 致谢大佬&Thanks
 
 https://github.com/coolsnowwolf/lede  
