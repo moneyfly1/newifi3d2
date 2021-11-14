@@ -11,7 +11,7 @@
 # Blog: https://p3terx.com
 #=================================================
 
-name: Build OpenWrt D2
+name: OpenWrt D2增加password
 
 on:
   repository_dispatch:
@@ -37,7 +37,7 @@ env:
   CONFIG_FILE: d2.config
   DIY_P1_SH: diy-part1.sh
   DIY_P2_SH: diy-part2.sh
-  SSH_ACTIONS: false
+  SSH_ACTIONS: true
   UPLOAD_BIN_DIR: true
   UPLOAD_FIRMWARE: true
   UPLOAD_COWTRANSFER: true
